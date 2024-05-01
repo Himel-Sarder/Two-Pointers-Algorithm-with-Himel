@@ -20,7 +20,7 @@ void solve(int ar[],int n, int x)
         if(sum>x)r--;
         else l++;
     }
-    cout<<"("<<ar[ind1]<<" "<<ar[ind2]<<")  = "<< ar[ind1]+ar[ind2]<<endl;
+    cout<< ar[ind1]<<" "<<ar[ind2] <<endl;
 }
 int main()
 {
