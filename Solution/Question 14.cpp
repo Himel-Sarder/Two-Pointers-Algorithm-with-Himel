@@ -8,6 +8,7 @@ void solve(vector<int>& ar, int x) {
     int count = 0;
     int sum = 0, left = 0;
 
+    
     for (int right = 0; right < n; ++right) {
         sum += ar[right];
         while (sum > x && left <= right) {
@@ -19,6 +20,7 @@ void solve(vector<int>& ar, int x) {
     }
     cout << count << endl;
 }
+
 
 int main() {
     int n, x;
