@@ -54,6 +54,5 @@ int main() {
         int largestMinDist = largestMinDistance(stalls, c);
         cout << largestMinDist << endl;
     }
-
     return 0;
 }
