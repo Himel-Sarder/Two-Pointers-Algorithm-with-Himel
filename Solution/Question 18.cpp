@@ -19,6 +19,7 @@ bool canPlaceCows(const vector<int>& stalls, int numCows, int minDistance) {
     return false;
 }
 
+
 int largestMinDistance(const vector<int>& stalls, int numCows) {
     int low = 1, high = stalls.back() - stalls.front(), result = -1;
 
