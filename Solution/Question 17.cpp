@@ -25,6 +25,5 @@ int main () {
             }
         }
     }
-
     cout << "IMPOSSIBLE" << endl;
 }
